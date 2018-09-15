@@ -26,7 +26,7 @@ function loadStories() {
     story.Apps.forEach(App => {
       const title = App.displayName || App.name || 'default';
       s.add(title, () => (
-          <App action={action} />
+        <App action={action('action')} createAction={action} />
       ));
     });
   });

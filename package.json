@@ -4,7 +4,7 @@
   "description": "前端UI基础库",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint **/*.js",
+    "lint": "eslint .",
     "start": "start-storybook -p 5555",
     "test": "TEST_URL=http://dev.unreach.io:4000 test-mate",
     "cov": "TEST_URL=http://dev.unreach.io:4000 test-mate --coverage"
@@ -13,6 +13,7 @@
     "**/*.js"
   ],
   "dependencies": {
+    "prop-types": "^15.6.2",
     "recompose": "^0.30.0"
   },
   "devDependencies": {
