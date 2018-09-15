@@ -1,6 +1,6 @@
 {
   "name": "unreach-ui",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "前端UI基础库",
   "main": "index.js",
   "scripts": {
@@ -10,11 +10,6 @@
     "test": "TEST_URL=http://dev.unreach.io:4000 test-mate",
     "cov": "TEST_URL=http://dev.unreach.io:4000 test-mate --coverage"
   },
-  "files": [
-    "**/*.js",
-    "!examples/",
-    "!dist/"
-  ],
   "dependencies": {
     "prop-types": "^15.6.2",
     "recompose": "^0.30.0"
