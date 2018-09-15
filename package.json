@@ -6,11 +6,14 @@
   "scripts": {
     "lint": "eslint .",
     "start": "start-storybook -p 5555",
+    "build": "build-storybook -o dist",
     "test": "TEST_URL=http://dev.unreach.io:4000 test-mate",
     "cov": "TEST_URL=http://dev.unreach.io:4000 test-mate --coverage"
   },
   "files": [
-    "**/*.js"
+    "**/*.js",
+    "!examples/",
+    "!dist/"
   ],
   "dependencies": {
     "prop-types": "^15.6.2",
