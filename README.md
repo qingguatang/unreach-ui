@@ -1,6 +1,6 @@
 # unreach-ui
 
-通用UI组件。 [在线查看](https://qingguatang.github.io/unreach-ui/index.html)
+通用UI组件。 [在线查看](https://qingguatang.github.io/unreach-ui/index.html)，[别人家的示例很好](https://release-3-4--storybooks-official.netlify.com/)。
 
 ## 开发和DEMO演示
 
