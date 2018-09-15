@@ -6,7 +6,7 @@
   "scripts": {
     "lint": "eslint .",
     "start": "start-storybook -p 5555",
-    "build": "build-storybook -o dist",
+    "build": "build-storybook -o docs",
     "test": "TEST_URL=http://dev.unreach.io:4000 test-mate",
     "cov": "TEST_URL=http://dev.unreach.io:4000 test-mate --coverage"
   },
