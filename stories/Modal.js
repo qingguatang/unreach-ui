@@ -1,19 +1,9 @@
 import React from 'react';
 import { withState } from 'recompose';
 import Modal, { confirm, info } from '@/Modal';
+import bulmaClasses from '@/Modal/bulmaClasses';
 import 'bulma/css/bulma.css';
 import './style.scss';
-
-
-const bulmaClasses = {
-  modalClassName: 'modal is-active',
-  modalMaskClassName: 'modal-background',
-  modalContainerClassName: 'modal-card',
-  modalHeaderClassName: 'modal-card-head',
-  modalTitleClassName: 'modal-card-title',
-  modalBodyClassName: 'modal-card-body',
-  modalFooterClassName: 'modal-card-foot'
-};
 
 
 const enhance = withState('isOpen', 'setOpen', false);
@@ -33,10 +23,10 @@ const App = enhance(({
   </div>
 ));
 
-App.displayName = 'Modal';
+App.displayName = 'simple use modal';
 
-export default App;
-
+const Title = 'Modal - 对话框';
+export { App, Title };
 
 const MyModal = ({ setOpen, action }) => (
   <Modal title="你好" {...bulmaClasses}
